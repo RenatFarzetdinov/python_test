@@ -10,4 +10,4 @@ def driver():
     driver = webdriver.Chrome(service=service)
     driver.maximize_window()
     yield driver
-    # driver.quit()
+    driver.quit()
